@@ -1,0 +1,37 @@
+.about {
+    margin-bottom: 200px;
+    img {
+        border-radius: var(--radius);
+    }
+    h2 {
+        margin-bottom: 28px;
+    }
+    p {
+        margin-bottom: 82px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #4F4F4F;
+    }
+    &__info {
+        &--item {
+            margin-bottom: 32px;
+            dt {
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 38px;
+                margin-bottom: 8px;
+            }
+            dd {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px;
+                color: #4F4F4F;
+            }
+            img {
+                margin: 0 auto;
+                border-radius: 0;
+            }
+        }
+    }
+}

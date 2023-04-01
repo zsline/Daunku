@@ -1,0 +1,54 @@
+.header {
+    padding: 57px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    &__nav {
+        align-items: center;
+        &--menu>ul {
+            gap: 67px;
+            a {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 28px;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: #fff;
+                transition: all 0.5s;
+            }
+            a:hover {
+                background-image: var(--grad);
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+    &__logo {
+        gap: 4px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #fff;
+    }
+    &__cart {
+        position: relative;
+        span {
+            position: absolute;
+            background: var(--grad);
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            color: #2D3949;
+            width: 21px;
+            height: 21px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 5px;
+            right: -10px;
+        }
+    }
+}
